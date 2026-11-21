@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "dor4ek_esp",
+  "version": "${version}",
+  "name": "Dor4ek ESP",
+  "description": "Client-side entity highlighting with a configurable menu.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.dor4ek.esp.Dor4ekEspClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
